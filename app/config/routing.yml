@@ -1,0 +1,3 @@
+neos:
+    resource: "@NeosBundle/Resources/config/routing.yml"
+    prefix:   /

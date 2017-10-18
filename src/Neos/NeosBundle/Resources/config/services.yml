@@ -1,0 +1,4 @@
+services:
+#    neos.example:
+#        class: Neos\NeosBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]

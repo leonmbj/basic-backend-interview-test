@@ -1,0 +1,15 @@
+neos_homepage:
+    path:     /
+    defaults: { _controller: NeosBundle:Default:index }
+
+neo_hazardous:
+    path:     /neo/hazardous
+    defaults: { _controller: NeosBundle:Neo:hazardous }
+
+neo_fastest:
+    path:     /neo/fastest
+    defaults: { _controller: NeosBundle:Neo:fastest }
+
+neo_bestyear:
+    path:     /neo/best-year
+    defaults: { _controller: NeosBundle:Neo:bestYear }
