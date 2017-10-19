@@ -13,3 +13,7 @@ neo_fastest:
 neo_bestyear:
     path:     /neo/best-year
     defaults: { _controller: NeosBundle:Neo:bestYear }
+
+neo_bestmonth:
+    path:     /neo/best-month
+    defaults: { _controller: NeosBundle:Neo:bestMonth }

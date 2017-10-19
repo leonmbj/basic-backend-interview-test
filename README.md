@@ -81,16 +81,6 @@ The urls above are to normal apache install. If you want to use Simphony's own w
 Then, open browser at http://localhost:8000
 
 
-## More ...
-
-#### About Symfony
-Symfony is the required/recommended framework for this interview. It is a good framework, many inprovements were made since Symfony 2, but I had less dificulties with Yii2 or Laravel. I've already worked with Symfony 2 at iTriad (Alcatel outsource)  for almos 2 years and we had bad moments with it, especially because of Doctrine's bad performance, ORM, losing it, cache issues, etc. But, It was with Symfony 2, not 3, tha looks a lot simplier.
-
-
-#### About MongoDB
-MongoDB, which is better than MySQL when you are working with simpler, more difuse and non-relational data. This gives you more speed on some applications.
-
-
 <hr>
 
 
