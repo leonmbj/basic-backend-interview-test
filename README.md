@@ -2,10 +2,11 @@
 
 ## Requirements
 - **php7** (with mongodb, curl extension)
+- **phpunit** (for tests)
 - **mongodb server**
 
 #### Command to install requirements (Ubuntu/Debian)
->sudo apt-get -y install git composer apache2 apache2-utils php php-mongodb mongodb mongodb-clients mongodb-server libapache2-mod-php php-opcache php-calendar php-curl php-json php-mbstring php-readline php-xml php-xsl php php7.0-bcmath php7.0-dev php7.0-json php7.0-opcache php7.0-soap php7.0-bz2 php7.0-enchant php7.0-ldap php7.0-pgsql php7.0-sqlite3 php7.0-cgi php7.0-mapi php7.0-sybase php7.0-cli php7.0-gd php7.0-mbstring php7.0-pspell php7.0-tidy php7.0-common php7.0-mcrypt php7.0-readline php7.0-xml php7.0-curl php7.0-imap php7.0-recode php7.0-xmlrpc php7.0-dba php7.0-interbase php7.0-mysql php7.0-intl php7.0-odbc php7.0-zip
+>sudo apt-get -y install git composer apache2 apache2-utils php php-mongodb mongodb mongodb-clients mongodb-server libapache2-mod-php php-opcache php-calendar php-curl php-json php-mbstring php-readline php-xml php-xsl php php7.0-bcmath php7.0-dev php7.0-json php7.0-opcache php7.0-soap php7.0-bz2 php7.0-enchant php7.0-ldap php7.0-pgsql php7.0-sqlite3 php7.0-cgi php7.0-mapi php7.0-sybase php7.0-cli php7.0-gd php7.0-mbstring php7.0-pspell php7.0-tidy php7.0-common php7.0-mcrypt php7.0-readline php7.0-xml php7.0-curl php7.0-imap php7.0-recode php7.0-xmlrpc php7.0-dba php7.0-interbase php7.0-mysql php7.0-intl php7.0-odbc php7.0-zip phpunit
 
 
 
@@ -64,6 +65,12 @@ To analyze all data, calculate and return the year with most hazardous asteroids
 To analyze all data, calculate and return the month with most hazardous asteroids. Use <b>hazardous=false</b> to show the month with most non-hazardous asteroids.
 
 >http://localhost/basic-backend-interview-test/web/app_dev.php<b>/neo/best-month?hazardous=true</b>
+
+### Testing
+
+To run phpunit tests, do the command:
+
+>./vendor/phpunit/phpunit/phpunit --debug src/
 
 ### Start Project with Simphony's own web server
 
